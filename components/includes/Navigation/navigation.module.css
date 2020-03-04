@@ -1,0 +1,76 @@
+@media (max-width: 415px){
+    .mainHeader {
+        top: 49px;
+        width: 100%;
+        background:#1b1f23;
+        z-index: 99999;
+        box-shadow: 0 1px 0 rgba(0,0,0,.1);
+        font-weight: 500;
+        line-height: 23px;
+        margin: 0;
+    }
+
+    .mainHeaderContainer {
+        position: relative;
+        text-align: left;
+        width: 80%;
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    .menuContainer {
+        z-index: 99;
+    }
+
+    .mainHeaderLogoContainer {
+        position:absolute;
+        width: 100%;
+        width: 100%;
+    }
+
+    .mainHeaderLogoHelper {
+        display: inline-block;
+        width: 0;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    .mainHeaderLogo {
+        background: url('/static/images/logo.png');
+        height: 60px;
+        background-repeat: no-repeat;
+
+    }
+
+    .mobileTopNavigation {
+        display: block;
+        float: right;
+    }
+
+    .mobileNavClosed {
+
+    }
+
+    .mobileMenuBar {
+        display: block;
+        position: relative;
+        line-height: 0;
+        padding-bottom: 24px;
+    }
+
+    .mainNavItems {
+        display: none;
+        float: left;
+        line-height: 0;
+        list-style: none;
+    }
+
+    .mainNavItem {
+        display: inline-block;
+        padding-right: 22px;
+        font-size:14px;
+        word-wrap: break-word;
+        position: relative;
+        line-height: 1em;
+    }
+}
