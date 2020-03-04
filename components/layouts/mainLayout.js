@@ -40,7 +40,7 @@ class MainLayout extends Component{
                 </Head>
                 <div className={classes.mainLayoutContainer}>
                     <Toolbar navDrawerClickHandler={this.navDrawerToggleClickHandler} />
-                    {NavDrawer}
+                    {/*{NavDrawer}*/}
                     {Backdrop}
                     <Panel />
                     <div className="main_container">
